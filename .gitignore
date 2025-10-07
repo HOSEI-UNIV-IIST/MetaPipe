@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+test_report.html
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.backup
+
+# Output files (keep structure, ignore generated files)
+RESULTS/raw_data/*.csv
+RESULTS/raw_data/*.md
+!RESULTS/raw_data/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
