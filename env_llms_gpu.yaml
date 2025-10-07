@@ -1,0 +1,27 @@
+name: llms
+channels: [pytorch, nvidia, conda-forge]
+dependencies:
+  - python=3.11
+  - pip
+  - pytorch=2.6.*              # from pytorch channel
+  - pytorch-cuda=12.1          # from nvidia channel
+  - pandas
+  - pyyaml
+  - requests
+  - tqdm
+  - numpy
+  - tokenizers=0.21.*
+  - transformers=4.52.*
+  - sentencepiece              # if needed
+  - ipykernel                  # OPTIONAL
+  - matplotlib                 # OPTIONAL
+  - texlive-core               # LaTeX core
+  - latexmk                    # LaTeX build tool
+  - pip:
+      - openai                 # OPTIONAL
+      - pydantic               # OPTIONAL
+      - pypdf                  # OPTIONAL
+      - pillow                 # OPTIONAL
+      - pypdf2                 # OPTIONAL
+      - streamlit
+      - pylatex                # Python LaTeX generation
